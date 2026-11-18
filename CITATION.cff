@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper."
+title: "DRL-Route: code, models and results"
+authors:
+  - family-names: "Khafaga"
+    given-names: "Ali Salah Mahdi"
+    affiliation: "Al-Furat Al-Awsat Technical University"
+license: MIT
+preferred-citation:
+  type: article
+  title: "When Does Deep Reinforcement Learning Pay Off? Energy-Sustainable Routing for Wireless Sensor Networks under Different Data-Aggregation Regimes"
+  authors:
+    - family-names: "Khafaga"
+      given-names: "Ali Salah Mahdi"
+  journal: "Al Furat Journal of Innovations in Engineering Applications (AJIEA)"
+  year: 2026
