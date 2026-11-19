@@ -1,0 +1,140 @@
+=== Table 3 ===
+scen            protocol       FND      HND        LND  PDR  readings  J_per_reading_mJ
+  S1               LEACH  435 ± 23 691 ± 24   961 ± 25 97.5      67.9             0.737
+  S1             PEGASIS 738 ± 152 1016 ± 9  1159 ± 96 96.9      96.8             0.516
+  S1            MTE-Tree  601 ± 30 825 ± 14    862 ± 9 98.4      77.4             0.646
+  S1              EA-SPT  620 ± 26 834 ± 12    874 ± 6 98.5      78.6             0.636
+  S1           EA-Greedy  960 ± 10 1047 ± 5   1096 ± 6 98.9     103.4             0.484
+  S1 DRL-Route (gamma=0)   949 ± 7 1031 ± 3   1071 ± 4 99.1     101.7             0.492
+  S2               LEACH  693 ± 25  867 ± 7  1012 ± 22 98.7      85.1             0.587
+  S2             PEGASIS 759 ± 165 1064 ± 1 1539 ± 101 99.0     105.1             0.476
+  S2            MTE-Tree  783 ± 11 810 ± 12   828 ± 12 98.5      79.7             0.627
+  S2              EA-SPT  777 ± 12 805 ± 13   822 ± 13 98.6      79.2             0.631
+  S2           EA-Greedy   982 ± 9 1054 ± 5   1129 ± 5 99.2     104.9             0.477
+  S2 DRL-Route (gamma=0)   988 ± 6 1038 ± 3   1088 ± 5 99.2     103.2             0.485
+scen    metric                 ref        vs     mean       lo       hi  wins  n      p  p_holm
+  S1       FND DRL-Route (gamma=0)     LEACH 118.9597 114.9663 123.3404    30 30 0.0000  0.0000
+  S1       FND DRL-Route (gamma=0)   PEGASIS  36.1452  23.3540  50.8658    30 30 0.0000  0.0000
+  S1       FND DRL-Route (gamma=0)  MTE-Tree  58.4558  55.7683  61.2098    30 30 0.0000  0.0000
+  S1       FND DRL-Route (gamma=0)    EA-SPT  53.3897  51.1618  55.7122    30 30 0.0000  0.0000
+  S1       FND DRL-Route (gamma=0) EA-Greedy  -1.1118  -1.4149  -0.7791     4 30 0.0000  0.0000
+  S1       HND DRL-Route (gamma=0)     LEACH  49.5319  47.6491  51.5227    30 30 0.0000  0.0000
+  S1       HND DRL-Route (gamma=0)   PEGASIS   1.5122   1.1320   1.8966    29 30 0.0000  0.0000
+  S1       HND DRL-Route (gamma=0)  MTE-Tree  25.0807  24.2846  25.8951    30 30 0.0000  0.0000
+  S1       HND DRL-Route (gamma=0)    EA-SPT  23.7061  23.0360  24.4113    30 30 0.0000  0.0000
+  S1       HND DRL-Route (gamma=0) EA-Greedy  -1.5164  -1.6425  -1.3880     0 30 0.0000  0.0000
+  S1 delivered DRL-Route (gamma=0)     LEACH  49.9266  48.4435  51.3823    30 30 0.0000  0.0000
+  S1 delivered DRL-Route (gamma=0)   PEGASIS   5.0005   4.6300   5.3261    30 30 0.0000  0.0000
+  S1 delivered DRL-Route (gamma=0)  MTE-Tree  31.4434  30.6488  32.2143    30 30 0.0000  0.0000
+  S1 delivered DRL-Route (gamma=0)    EA-SPT  29.3035  28.6062  29.9526    30 30 0.0000  0.0000
+  S1 delivered DRL-Route (gamma=0) EA-Greedy  -1.6353  -1.7009  -1.5708     0 30 0.0000  0.0000
+  S2       FND DRL-Route (gamma=0)     LEACH  42.7449  40.8825  44.6619    30 30 0.0000  0.0000
+  S2       FND DRL-Route (gamma=0)   PEGASIS  37.9875  25.2885  52.2088    29 30 0.0000  0.0000
+  S2       FND DRL-Route (gamma=0)  MTE-Tree  26.2431  25.4190  27.0734    30 30 0.0000  0.0000
+  S2       FND DRL-Route (gamma=0)    EA-SPT  27.2141  26.3333  28.1237    30 30 0.0000  0.0000
+  S2       FND DRL-Route (gamma=0) EA-Greedy   0.6528   0.3690   0.9438    25 30 0.0002  0.0002
+  S2       HND DRL-Route (gamma=0)     LEACH  19.7921  19.3628  20.2104    30 30 0.0000  0.0000
+  S2       HND DRL-Route (gamma=0)   PEGASIS  -2.3798  -2.5039  -2.2599     0 30 0.0000  0.0000
+  S2       HND DRL-Route (gamma=0)  MTE-Tree  28.1424  27.4087  28.9023    30 30 0.0000  0.0000
+  S2       HND DRL-Route (gamma=0)    EA-SPT  29.0142  28.1955  29.8580    30 30 0.0000  0.0000
+  S2       HND DRL-Route (gamma=0) EA-Greedy  -1.4401  -1.5275  -1.3469     0 30 0.0000  0.0000
+  S2 delivered DRL-Route (gamma=0)     LEACH  21.2466  20.8942  21.6080    30 30 0.0000  0.0000
+  S2 delivered DRL-Route (gamma=0)   PEGASIS  -1.8019  -1.9739  -1.6372     0 30 0.0000  0.0000
+  S2 delivered DRL-Route (gamma=0)  MTE-Tree  29.4272  28.7246  30.1875    30 30 0.0000  0.0000
+  S2 delivered DRL-Route (gamma=0)    EA-SPT  30.2662  29.4813  31.0974    30 30 0.0000  0.0000
+  S2 delivered DRL-Route (gamma=0) EA-Greedy  -1.5928  -1.6430  -1.5430     0 30 0.0000  0.0000
+per-model S1 FND: {'models/c1_g0_m1.npz': 965.1, 'models/c1_g0_m2.npz': 959.6, 'models/c1_g0_m3.npz': 871.6, 'models/c1_g0_m4.npz': 972.3, 'models/c1_g0_m5.npz': 978.1}
+die-off span (LND-FND) DRL: 121.28666666666668 99.75666666666663
+agreement with EA-Greedy 0.606, direct early 0.029 late 0.188
+=== ablation (S1, 10 topologies) ===
+                             FND         LND  J_per_reading
+name                                                       
+DRL-Route (alpha=0)    709.30000  1266.33333        0.00049
+DRL-Route (gamma=0)    952.06000  1073.28000        0.00049
+DRL-Route (gamma=0.5)  802.93333   997.50000        0.00054
+DRL-Route (gamma=0.9)  744.33333   946.76667        0.00058
+=== Table 4 FND ===
+                      mean                        std                     
+N                      50     100    150    200   50     100    150    200
+name                                                                      
+DRL-Route (gamma=0)  952.0  949.0  933.0  920.0   9.0    7.0    5.0    3.0
+EA-Greedy            965.0  960.0  944.0  919.0  10.0   10.0    8.0    9.0
+EA-SPT               651.0  620.0  588.0  549.0  37.0   26.0   23.0   11.0
+LEACH                252.0  435.0  437.0  445.0  15.0   23.0   25.0   22.0
+MTE-Tree             636.0  601.0  565.0  533.0  40.0   30.0   25.0   12.0
+PEGASIS              721.0  738.0  782.0  698.0  24.0  152.0  117.0  190.0
+50 DRL vs EA-Greedy -1.3% wins 1/10
+100 DRL vs EA-Greedy -1.1% wins 4/30
+150 DRL vs EA-Greedy -1.1% wins 0/10
+200 DRL vs EA-Greedy 0.1% wins 4/10
+HND N=200: {'DRL-Route (gamma=0)': 995.0, 'EA-Greedy': 1012.0, 'EA-SPT': 806.0, 'LEACH': 685.0, 'MTE-Tree': 800.0, 'PEGASIS': 1045.0}
+=== Table 5 ===
+             protocol   FND_S1   HND_S1   FND_S2   HND_S2
+                LEACH  24 ± 10 192 ± 27 469 ± 22  632 ± 7
+              PEGASIS    1 ± 0   40 ± 3   14 ± 1   46 ± 5
+             MTE-Tree 136 ± 32 253 ± 17 539 ± 14 583 ± 10
+               EA-SPT 128 ± 25 249 ± 15 537 ± 14 583 ± 11
+            EA-Greedy   49 ± 8  113 ± 4  134 ± 8  174 ± 4
+  DRL-Route (gamma=0)   57 ± 5  118 ± 3  134 ± 6  178 ± 5
+DRL-Route (gamma=0.9) 130 ± 19 241 ± 15 514 ± 15 559 ± 13
+scen metric                   ref                  vs       mean         lo         hi  wins  n      p  p_holm
+  S1    FND DRL-Route (gamma=0.9)               LEACH   626.1647   423.4058   866.8158    20 20 0.0000  0.0000
+  S1    FND DRL-Route (gamma=0.9)             PEGASIS 12895.0000 12081.6667 13720.0417    20 20 0.0000  0.0000
+  S1    FND DRL-Route (gamma=0.9)            MTE-Tree    -0.9180    -8.3431     7.3845     9 20 0.2627  0.5254
+  S1    FND DRL-Route (gamma=0.9)              EA-SPT     3.8103    -3.6133    11.5963    12 20 0.7012  0.7012
+  S1    FND DRL-Route (gamma=0.9)           EA-Greedy   171.4170   150.5506   194.5987    20 20 0.0001  0.0003
+  S1    FND DRL-Route (gamma=0.9) DRL-Route (gamma=0)   129.5065   117.5689   141.8015    20 20 0.0000  0.0000
+  S2    FND DRL-Route (gamma=0.9)               LEACH     9.8445     7.4776    12.1418    19 20 0.0001  0.0003
+  S2    FND DRL-Route (gamma=0.9)             PEGASIS  3525.0543  3460.6728  3592.8470    20 20 0.0001  0.0003
+  S2    FND DRL-Route (gamma=0.9)            MTE-Tree    -4.4940    -5.6367    -3.3308     1 20 0.0000  0.0000
+  S2    FND DRL-Route (gamma=0.9)              EA-SPT    -4.2284    -5.0317    -3.4270     0 20 0.0001  0.0003
+  S2    FND DRL-Route (gamma=0.9)           EA-Greedy   285.8203   276.5893   296.0743    20 20 0.0000  0.0000
+  S2    FND DRL-Route (gamma=0.9) DRL-Route (gamma=0)   283.3427   274.2212   292.7968    20 20 0.0000  0.0000
+=== Table 6 ===
+                                        FND            HND        
+scen                                     S1     S2      S1      S2
+name                                                              
+DRL-Route (TDMA)                      916.0  952.0   991.0   998.0
+DRL-Route (random access)             558.0  562.0   619.0   631.0
+DRL-Route (random access, retrained)  559.0  566.0   616.0   631.0
+EA-Greedy (TDMA)                      925.0  947.0  1007.0  1012.0
+EA-Greedy (random access)             562.0  566.0   624.0   637.0
+LEACH (scheduled)                     402.0  687.0   671.0   833.0
+PEGASIS (scheduled)                   690.0  749.0   976.0  1020.0
+scen metric                                    a                         b     mean  wins      p
+  S1    FND            DRL-Route (random access)       PEGASIS (scheduled) -13.1907     2 0.0273
+  S1    FND                     DRL-Route (TDMA)       PEGASIS (scheduled)  42.9006    10 0.0020
+  S1    FND DRL-Route (random access, retrained) DRL-Route (random access)   0.1395     7 0.5410
+  S1    FND            DRL-Route (random access) EA-Greedy (random access)  -0.7213     3 0.0469
+  S1    FND                     DRL-Route (TDMA)          EA-Greedy (TDMA)  -0.9866     3 0.0508
+  S1    FND            DRL-Route (random access)         LEACH (scheduled)  39.4831    10 0.0020
+  S1    FND                     DRL-Route (TDMA)         LEACH (scheduled) 128.8181    10 0.0020
+  S1    FND            DRL-Route (random access)          DRL-Route (TDMA) -39.0999     0 0.0020
+  S1    HND            DRL-Route (random access)       PEGASIS (scheduled) -36.6074     0 0.0020
+  S1    HND                     DRL-Route (TDMA)       PEGASIS (scheduled)   1.5612    10 0.0020
+  S1    HND DRL-Route (random access, retrained) DRL-Route (random access)  -0.3776     3 0.0723
+  S1    HND            DRL-Route (random access) EA-Greedy (random access)  -0.9264     0 0.0020
+  S1    HND                     DRL-Route (TDMA)          EA-Greedy (TDMA)  -1.5709     0 0.0020
+  S1    HND            DRL-Route (random access)         LEACH (scheduled)  -7.7691     0 0.0020
+  S1    HND                     DRL-Route (TDMA)         LEACH (scheduled)  47.7605    10 0.0020
+  S1    HND            DRL-Route (random access)          DRL-Route (TDMA) -37.5817     0 0.0020
+  S2    FND            DRL-Route (random access)       PEGASIS (scheduled) -19.0867     2 0.0195
+  S2    FND                     DRL-Route (TDMA)       PEGASIS (scheduled)  37.7721    10 0.0020
+  S2    FND DRL-Route (random access, retrained) DRL-Route (random access)   0.8248    10 0.0020
+  S2    FND            DRL-Route (random access) EA-Greedy (random access)  -0.7806     1 0.0371
+  S2    FND                     DRL-Route (TDMA)          EA-Greedy (TDMA)   0.5307     9 0.0645
+  S2    FND            DRL-Route (random access)         LEACH (scheduled) -18.0868     0 0.0020
+  S2    FND                     DRL-Route (TDMA)         LEACH (scheduled)  38.7911    10 0.0020
+  S2    FND            DRL-Route (random access)          DRL-Route (TDMA) -40.9950     0 0.0020
+  S2    HND            DRL-Route (random access)       PEGASIS (scheduled) -38.1466     0 0.0020
+  S2    HND                     DRL-Route (TDMA)       PEGASIS (scheduled)  -2.1879     0 0.0020
+  S2    HND DRL-Route (random access, retrained) DRL-Route (random access)   0.0258     6 1.0000
+  S2    HND            DRL-Route (random access) EA-Greedy (random access)  -0.8851     1 0.0039
+  S2    HND                     DRL-Route (TDMA)          EA-Greedy (TDMA)  -1.3649     0 0.0020
+  S2    HND            DRL-Route (random access)         LEACH (scheduled) -24.2713     0 0.0020
+  S2    HND                     DRL-Route (TDMA)         LEACH (scheduled)  19.7551    10 0.0020
+  S2    HND            DRL-Route (random access)          DRL-Route (TDMA) -36.7667     0 0.0020
+dist S1 {'drl': 890.8199999999999, 'greedy': 946.4, 'drl_vs_sinkgw': -6.4339146816040556, 'greedy_vs_drl': 6.247374597155186, 'p': 0.001953125}
+dist S2 {'drl': 898.8, 'greedy': 949.5, 'drl_vs_sinkgw': -9.259174323077668, 'greedy_vs_drl': 5.651660431403569, 'p': 0.001953125}
+{'val_c1_g0_m?': {'first': 966.4, 'last': 948.2, 'peak': 966.4}, 'val_c1_g05_m?': {'first': 935.0, 'last': 800.3333333333334, 'peak': 935.0}, 'val_c1_g09_m?': {'first': 901.0, 'last': 733.3333333333334, 'peak': 901.0}, 'val_c0_g0_m?': {'first': 69.0, 'last': 47.0, 'peak': 69.0}, 'val_c0_g09_m?': {'first': 84.33333333333333, 'last': 141.33333333333334, 'peak': 141.33333333333334}}
+seed check: {'train': 1000, 'test_runs': 3780, 'overlap': 0}
