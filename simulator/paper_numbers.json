@@ -1,0 +1,1303 @@
+{
+ "table3": [
+  {
+   "scen": "S1",
+   "protocol": "LEACH",
+   "FND": "435 \u00b1 23",
+   "HND": "691 \u00b1 24",
+   "LND": "961 \u00b1 25",
+   "PDR": 97.5,
+   "readings": 67.9,
+   "J_per_reading_mJ": 0.737,
+   "FND_m": 434.76666666666665,
+   "HND_m": 690.5333333333333,
+   "LND_m": 960.8
+  },
+  {
+   "scen": "S1",
+   "protocol": "PEGASIS",
+   "FND": "738 \u00b1 152",
+   "HND": "1016 \u00b1 9",
+   "LND": "1159 \u00b1 96",
+   "PDR": 96.9,
+   "readings": 96.8,
+   "J_per_reading_mJ": 0.516,
+   "FND_m": 738.4333333333333,
+   "HND_m": 1016.0,
+   "LND_m": 1159.2
+  },
+  {
+   "scen": "S1",
+   "protocol": "MTE-Tree",
+   "FND": "601 \u00b1 30",
+   "HND": "825 \u00b1 14",
+   "LND": "862 \u00b1 9",
+   "PDR": 98.4,
+   "readings": 77.4,
+   "J_per_reading_mJ": 0.646,
+   "FND_m": 600.5333333333333,
+   "HND_m": 824.7333333333333,
+   "LND_m": 861.6333333333333
+  },
+  {
+   "scen": "S1",
+   "protocol": "EA-SPT",
+   "FND": "620 \u00b1 26",
+   "HND": "834 \u00b1 12",
+   "LND": "874 \u00b1 6",
+   "PDR": 98.5,
+   "readings": 78.6,
+   "J_per_reading_mJ": 0.636,
+   "FND_m": 619.9666666666667,
+   "HND_m": 833.8333333333334,
+   "LND_m": 874.0333333333333
+  },
+  {
+   "scen": "S1",
+   "protocol": "EA-Greedy",
+   "FND": "960 \u00b1 10",
+   "HND": "1047 \u00b1 5",
+   "LND": "1096 \u00b1 6",
+   "PDR": 98.9,
+   "readings": 103.4,
+   "J_per_reading_mJ": 0.484,
+   "FND_m": 960.0666666666667,
+   "HND_m": 1047.1666666666667,
+   "LND_m": 1095.6333333333334
+  },
+  {
+   "scen": "S1",
+   "protocol": "DRL-Route (gamma=0)",
+   "FND": "949 \u00b1 7",
+   "HND": "1031 \u00b1 3",
+   "LND": "1071 \u00b1 4",
+   "PDR": 99.1,
+   "readings": 101.7,
+   "J_per_reading_mJ": 0.492,
+   "FND_m": 949.3333333333333,
+   "HND_m": 1031.2733333333333,
+   "LND_m": 1070.6200000000001
+  },
+  {
+   "scen": "S2",
+   "protocol": "LEACH",
+   "FND": "693 \u00b1 25",
+   "HND": "867 \u00b1 7",
+   "LND": "1012 \u00b1 22",
+   "PDR": 98.7,
+   "readings": 85.1,
+   "J_per_reading_mJ": 0.587,
+   "FND_m": 693.3666666666667,
+   "HND_m": 866.8333333333334,
+   "LND_m": 1011.8
+  },
+  {
+   "scen": "S2",
+   "protocol": "PEGASIS",
+   "FND": "759 \u00b1 165",
+   "HND": "1064 \u00b1 1",
+   "LND": "1539 \u00b1 101",
+   "PDR": 99.0,
+   "readings": 105.1,
+   "J_per_reading_mJ": 0.476,
+   "FND_m": 759.2333333333333,
+   "HND_m": 1063.6333333333334,
+   "LND_m": 1539.1666666666667
+  },
+  {
+   "scen": "S2",
+   "protocol": "MTE-Tree",
+   "FND": "783 \u00b1 11",
+   "HND": "810 \u00b1 12",
+   "LND": "828 \u00b1 12",
+   "PDR": 98.5,
+   "readings": 79.7,
+   "J_per_reading_mJ": 0.627,
+   "FND_m": 783.1666666666666,
+   "HND_m": 810.4666666666667,
+   "LND_m": 827.6
+  },
+  {
+   "scen": "S2",
+   "protocol": "EA-SPT",
+   "FND": "777 \u00b1 12",
+   "HND": "805 \u00b1 13",
+   "LND": "822 \u00b1 13",
+   "PDR": 98.6,
+   "readings": 79.2,
+   "J_per_reading_mJ": 0.631,
+   "FND_m": 777.2333333333333,
+   "HND_m": 805.0333333333333,
+   "LND_m": 822.0
+  },
+  {
+   "scen": "S2",
+   "protocol": "EA-Greedy",
+   "FND": "982 \u00b1 9",
+   "HND": "1054 \u00b1 5",
+   "LND": "1129 \u00b1 5",
+   "PDR": 99.2,
+   "readings": 104.9,
+   "J_per_reading_mJ": 0.477,
+   "FND_m": 982.1,
+   "HND_m": 1053.5,
+   "LND_m": 1128.8
+  },
+  {
+   "scen": "S2",
+   "protocol": "DRL-Route (gamma=0)",
+   "FND": "988 \u00b1 6",
+   "HND": "1038 \u00b1 3",
+   "LND": "1088 \u00b1 5",
+   "PDR": 99.2,
+   "readings": 103.2,
+   "J_per_reading_mJ": 0.485,
+   "FND_m": 988.4533333333334,
+   "HND_m": 1038.32,
+   "LND_m": 1088.21
+  }
+ ],
+ "cmp3": [
+  {
+   "scen": "S1",
+   "metric": "FND",
+   "ref": "DRL-Route (gamma=0)",
+   "vs": "LEACH",
+   "mean": 118.9596684599825,
+   "lo": 114.96625951112081,
+   "hi": 123.34038332990882,
+   "wins": 30,
+   "n": 30,
+   "p": 1.7333066441991056e-06,
+   "p_holm": 6.9332265767964225e-06
+  },
+  {
+   "scen": "S1",
+   "metric": "FND",
+   "ref": "DRL-Route (gamma=0)",
+   "vs": "PEGASIS",
+   "mean": 36.14517592074881,
+   "lo": 23.353995629178243,
+   "hi": 50.86583410672523,
+   "wins": 30,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 9.313225746154785e-09
+  },
+  {
+   "scen": "S1",
+   "metric": "FND",
+   "ref": "DRL-Route (gamma=0)",
+   "vs": "MTE-Tree",
+   "mean": 58.455794986445454,
+   "lo": 55.76827476529877,
+   "hi": 61.2098161109305,
+   "wins": 30,
+   "n": 30,
+   "p": 1.7333066441991056e-06,
+   "p_holm": 6.9332265767964225e-06
+  },
+  {
+   "scen": "S1",
+   "metric": "FND",
+   "ref": "DRL-Route (gamma=0)",
+   "vs": "EA-SPT",
+   "mean": 53.38972919666695,
+   "lo": 51.16178213412784,
+   "hi": 55.712222913106686,
+   "wins": 30,
+   "n": 30,
+   "p": 1.7333066441991056e-06,
+   "p_holm": 6.9332265767964225e-06
+  },
+  {
+   "scen": "S1",
+   "metric": "FND",
+   "ref": "DRL-Route (gamma=0)",
+   "vs": "EA-Greedy",
+   "mean": -1.111810173797033,
+   "lo": -1.414902806445714,
+   "hi": -0.7790690381105309,
+   "wins": 4,
+   "n": 30,
+   "p": 1.7896850824348044e-05,
+   "p_holm": 1.7896850824348044e-05
+  },
+  {
+   "scen": "S1",
+   "metric": "HND",
+   "ref": "DRL-Route (gamma=0)",
+   "vs": "LEACH",
+   "mean": 49.531925956041455,
+   "lo": 47.64910859495443,
+   "hi": 51.522745311045924,
+   "wins": 30,
+   "n": 30,
+   "p": 1.7333066441991056e-06,
+   "p_holm": 8.639301574362052e-06
+  },
+  {
+   "scen": "S1",
+   "metric": "HND",
+   "ref": "DRL-Route (gamma=0)",
+   "vs": "PEGASIS",
+   "mean": 1.512222021284488,
+   "lo": 1.1320191864516083,
+   "hi": 1.896625145602743,
+   "wins": 29,
+   "n": 30,
+   "p": 3.506904076379344e-06,
+   "p_holm": 8.639301574362052e-06
+  },
+  {
+   "scen": "S1",
+   "metric": "HND",
+   "ref": "DRL-Route (gamma=0)",
+   "vs": "MTE-Tree",
+   "mean": 25.080653604807303,
+   "lo": 24.284612768250096,
+   "hi": 25.895066019498557,
+   "wins": 30,
+   "n": 30,
+   "p": 1.7333066441991056e-06,
+   "p_holm": 8.639301574362052e-06
+  },
+  {
+   "scen": "S1",
+   "metric": "HND",
+   "ref": "DRL-Route (gamma=0)",
+   "vs": "EA-SPT",
+   "mean": 23.70613332130033,
+   "lo": 23.035961373941884,
+   "hi": 24.41129310503826,
+   "wins": 30,
+   "n": 30,
+   "p": 1.7333066441991056e-06,
+   "p_holm": 8.639301574362052e-06
+  },
+  {
+   "scen": "S1",
+   "metric": "HND",
+   "ref": "DRL-Route (gamma=0)",
+   "vs": "EA-Greedy",
+   "mean": -1.5163821960236892,
+   "lo": -1.6424530422655077,
+   "hi": -1.3879876864040457,
+   "wins": 0,
+   "n": 30,
+   "p": 1.7278603148724103e-06,
+   "p_holm": 8.639301574362052e-06
+  },
+  {
+   "scen": "S1",
+   "metric": "delivered",
+   "ref": "DRL-Route (gamma=0)",
+   "vs": "LEACH",
+   "mean": 49.926610701094006,
+   "lo": 48.443503636822925,
+   "hi": 51.38229762107214,
+   "wins": 30,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 9.313225746154785e-09
+  },
+  {
+   "scen": "S1",
+   "metric": "delivered",
+   "ref": "DRL-Route (gamma=0)",
+   "vs": "PEGASIS",
+   "mean": 5.000508541769207,
+   "lo": 4.6300340227059955,
+   "hi": 5.326119577864444,
+   "wins": 30,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 9.313225746154785e-09
+  },
+  {
+   "scen": "S1",
+   "metric": "delivered",
+   "ref": "DRL-Route (gamma=0)",
+   "vs": "MTE-Tree",
+   "mean": 31.443382607673502,
+   "lo": 30.648792100734493,
+   "hi": 32.21432108825303,
+   "wins": 30,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 9.313225746154785e-09
+  },
+  {
+   "scen": "S1",
+   "metric": "delivered",
+   "ref": "DRL-Route (gamma=0)",
+   "vs": "EA-SPT",
+   "mean": 29.303497922455335,
+   "lo": 28.606241346379726,
+   "hi": 29.952625280590293,
+   "wins": 30,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 9.313225746154785e-09
+  },
+  {
+   "scen": "S1",
+   "metric": "delivered",
+   "ref": "DRL-Route (gamma=0)",
+   "vs": "EA-Greedy",
+   "mean": -1.6353164287538238,
+   "lo": -1.7008780105778925,
+   "hi": -1.570824903232415,
+   "wins": 0,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 9.313225746154785e-09
+  },
+  {
+   "scen": "S2",
+   "metric": "FND",
+   "ref": "DRL-Route (gamma=0)",
+   "vs": "LEACH",
+   "mean": 42.7448615274861,
+   "lo": 40.88249828213932,
+   "hi": 44.66191256007676,
+   "wins": 30,
+   "n": 30,
+   "p": 1.732216233144114e-06,
+   "p_holm": 6.920148517160498e-06
+  },
+  {
+   "scen": "S2",
+   "metric": "FND",
+   "ref": "DRL-Route (gamma=0)",
+   "vs": "PEGASIS",
+   "mean": 37.987513468209,
+   "lo": 25.288533535323836,
+   "hi": 52.208758328766145,
+   "wins": 29,
+   "n": 30,
+   "p": 5.587935447692871e-09,
+   "p_holm": 2.7939677238464355e-08
+  },
+  {
+   "scen": "S2",
+   "metric": "FND",
+   "ref": "DRL-Route (gamma=0)",
+   "vs": "MTE-Tree",
+   "mean": 26.24314444389718,
+   "lo": 25.419025723963053,
+   "hi": 27.07340444826684,
+   "wins": 30,
+   "n": 30,
+   "p": 1.7300371292901245e-06,
+   "p_holm": 6.920148517160498e-06
+  },
+  {
+   "scen": "S2",
+   "metric": "FND",
+   "ref": "DRL-Route (gamma=0)",
+   "vs": "EA-SPT",
+   "mean": 27.21413695313675,
+   "lo": 26.33329322016215,
+   "hi": 28.123685119255224,
+   "wins": 30,
+   "n": 30,
+   "p": 1.7311263949197288e-06,
+   "p_holm": 6.920148517160498e-06
+  },
+  {
+   "scen": "S2",
+   "metric": "FND",
+   "ref": "DRL-Route (gamma=0)",
+   "vs": "EA-Greedy",
+   "mean": 0.6528302543926942,
+   "lo": 0.3689617529575173,
+   "hi": 0.9438334638068769,
+   "wins": 25,
+   "n": 30,
+   "p": 0.00023077069048566795,
+   "p_holm": 0.00023077069048566795
+  },
+  {
+   "scen": "S2",
+   "metric": "HND",
+   "ref": "DRL-Route (gamma=0)",
+   "vs": "LEACH",
+   "mean": 19.79208039374956,
+   "lo": 19.362833527238166,
+   "hi": 20.210424819255856,
+   "wins": 30,
+   "n": 30,
+   "p": 1.7333066441991056e-06,
+   "p_holm": 8.579643375293452e-06
+  },
+  {
+   "scen": "S2",
+   "metric": "HND",
+   "ref": "DRL-Route (gamma=0)",
+   "vs": "PEGASIS",
+   "mean": -2.3797537025786113,
+   "lo": -2.503912394506681,
+   "hi": -2.2598528815000685,
+   "wins": 0,
+   "n": 30,
+   "p": 1.7256857880058036e-06,
+   "p_holm": 8.579643375293452e-06
+  },
+  {
+   "scen": "S2",
+   "metric": "HND",
+   "ref": "DRL-Route (gamma=0)",
+   "vs": "MTE-Tree",
+   "mean": 28.142401439049163,
+   "lo": 27.40869627505645,
+   "hi": 28.902292936735137,
+   "wins": 30,
+   "n": 30,
+   "p": 1.7333066441991056e-06,
+   "p_holm": 8.579643375293452e-06
+  },
+  {
+   "scen": "S2",
+   "metric": "HND",
+   "ref": "DRL-Route (gamma=0)",
+   "vs": "EA-SPT",
+   "mean": 29.014183728206334,
+   "lo": 28.195518215731706,
+   "hi": 29.85801514072903,
+   "wins": 30,
+   "n": 30,
+   "p": 1.7333066441991056e-06,
+   "p_holm": 8.579643375293452e-06
+  },
+  {
+   "scen": "S2",
+   "metric": "HND",
+   "ref": "DRL-Route (gamma=0)",
+   "vs": "EA-Greedy",
+   "mean": -1.4401412402955271,
+   "lo": -1.5274714196376817,
+   "hi": -1.3469485272108455,
+   "wins": 0,
+   "n": 30,
+   "p": 1.7159286750586906e-06,
+   "p_holm": 8.579643375293452e-06
+  },
+  {
+   "scen": "S2",
+   "metric": "delivered",
+   "ref": "DRL-Route (gamma=0)",
+   "vs": "LEACH",
+   "mean": 21.24657451282762,
+   "lo": 20.894164466226055,
+   "hi": 21.608002544180334,
+   "wins": 30,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 9.313225746154785e-09
+  },
+  {
+   "scen": "S2",
+   "metric": "delivered",
+   "ref": "DRL-Route (gamma=0)",
+   "vs": "PEGASIS",
+   "mean": -1.8018576418332541,
+   "lo": -1.9739386695387284,
+   "hi": -1.637248552566672,
+   "wins": 0,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 9.313225746154785e-09
+  },
+  {
+   "scen": "S2",
+   "metric": "delivered",
+   "ref": "DRL-Route (gamma=0)",
+   "vs": "MTE-Tree",
+   "mean": 29.42722033792352,
+   "lo": 28.72455876538964,
+   "hi": 30.187493062116133,
+   "wins": 30,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 9.313225746154785e-09
+  },
+  {
+   "scen": "S2",
+   "metric": "delivered",
+   "ref": "DRL-Route (gamma=0)",
+   "vs": "EA-SPT",
+   "mean": 30.266217832836574,
+   "lo": 29.481349105501618,
+   "hi": 31.097402384665372,
+   "wins": 30,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 9.313225746154785e-09
+  },
+  {
+   "scen": "S2",
+   "metric": "delivered",
+   "ref": "DRL-Route (gamma=0)",
+   "vs": "EA-Greedy",
+   "mean": -1.5927908267373765,
+   "lo": -1.6430384089932204,
+   "hi": -1.5430129606764584,
+   "wins": 0,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 9.313225746154785e-09
+  }
+ ],
+ "models_S1": {
+  "models/c1_g0_m1.npz": 965.1,
+  "models/c1_g0_m2.npz": 959.6,
+  "models/c1_g0_m3.npz": 871.6,
+  "models/c1_g0_m4.npz": 972.3,
+  "models/c1_g0_m5.npz": 978.1
+ },
+ "dieoff_S1": 121.28666666666668,
+ "dieoff_S2": 99.75666666666663,
+ "agree": 0.6063695260557052,
+ "direct_early": 0.02880688152427283,
+ "direct_late": 0.1875894602110213,
+ "ablation": [
+  {
+   "name": "DRL-Route (alpha=0)",
+   "FND": 709.3,
+   "LND": 1266.3333,
+   "J_per_reading": 0.0005
+  },
+  {
+   "name": "DRL-Route (gamma=0)",
+   "FND": 952.06,
+   "LND": 1073.28,
+   "J_per_reading": 0.0005
+  },
+  {
+   "name": "DRL-Route (gamma=0.5)",
+   "FND": 802.9333,
+   "LND": 997.5,
+   "J_per_reading": 0.0005
+  },
+  {
+   "name": "DRL-Route (gamma=0.9)",
+   "FND": 744.3333,
+   "LND": 946.7667,
+   "J_per_reading": 0.0006
+  }
+ ],
+ "table4": {
+  "DRL-Route (gamma=0)|50": [
+   952.0,
+   9.0
+  ],
+  "DRL-Route (gamma=0)|100": [
+   949.0,
+   7.0
+  ],
+  "DRL-Route (gamma=0)|150": [
+   933.0,
+   5.0
+  ],
+  "DRL-Route (gamma=0)|200": [
+   920.0,
+   3.0
+  ],
+  "EA-Greedy|50": [
+   965.0,
+   10.0
+  ],
+  "EA-Greedy|100": [
+   960.0,
+   10.0
+  ],
+  "EA-Greedy|150": [
+   944.0,
+   8.0
+  ],
+  "EA-Greedy|200": [
+   919.0,
+   9.0
+  ],
+  "EA-SPT|50": [
+   651.0,
+   37.0
+  ],
+  "EA-SPT|100": [
+   620.0,
+   26.0
+  ],
+  "EA-SPT|150": [
+   588.0,
+   23.0
+  ],
+  "EA-SPT|200": [
+   549.0,
+   11.0
+  ],
+  "LEACH|50": [
+   252.0,
+   15.0
+  ],
+  "LEACH|100": [
+   435.0,
+   23.0
+  ],
+  "LEACH|150": [
+   437.0,
+   25.0
+  ],
+  "LEACH|200": [
+   445.0,
+   22.0
+  ],
+  "MTE-Tree|50": [
+   636.0,
+   40.0
+  ],
+  "MTE-Tree|100": [
+   601.0,
+   30.0
+  ],
+  "MTE-Tree|150": [
+   565.0,
+   25.0
+  ],
+  "MTE-Tree|200": [
+   533.0,
+   12.0
+  ],
+  "PEGASIS|50": [
+   721.0,
+   24.0
+  ],
+  "PEGASIS|100": [
+   738.0,
+   152.0
+  ],
+  "PEGASIS|150": [
+   782.0,
+   117.0
+  ],
+  "PEGASIS|200": [
+   698.0,
+   190.0
+  ]
+ },
+ "scale_vs_greedy_50": [
+  -1.318503195504065,
+  1,
+  10
+ ],
+ "scale_vs_greedy_100": [
+  -1.111810173797033,
+  4,
+  30
+ ],
+ "scale_vs_greedy_150": [
+  -1.0936368284627727,
+  0,
+  10
+ ],
+ "scale_vs_greedy_200": [
+  0.07691534160008118,
+  4,
+  10
+ ],
+ "hnd200": {
+  "DRL-Route (gamma=0)": 995.0,
+  "EA-Greedy": 1012.0,
+  "EA-SPT": 806.0,
+  "LEACH": 685.0,
+  "MTE-Tree": 800.0,
+  "PEGASIS": 1045.0
+ },
+ "table5": [
+  {
+   "protocol": "LEACH",
+   "FND_S1": "24 \u00b1 10",
+   "HND_S1": "192 \u00b1 27",
+   "FND_S2": "469 \u00b1 22",
+   "HND_S2": "632 \u00b1 7"
+  },
+  {
+   "protocol": "PEGASIS",
+   "FND_S1": "1 \u00b1 0",
+   "HND_S1": "40 \u00b1 3",
+   "FND_S2": "14 \u00b1 1",
+   "HND_S2": "46 \u00b1 5"
+  },
+  {
+   "protocol": "MTE-Tree",
+   "FND_S1": "136 \u00b1 32",
+   "HND_S1": "253 \u00b1 17",
+   "FND_S2": "539 \u00b1 14",
+   "HND_S2": "583 \u00b1 10"
+  },
+  {
+   "protocol": "EA-SPT",
+   "FND_S1": "128 \u00b1 25",
+   "HND_S1": "249 \u00b1 15",
+   "FND_S2": "537 \u00b1 14",
+   "HND_S2": "583 \u00b1 11"
+  },
+  {
+   "protocol": "EA-Greedy",
+   "FND_S1": "49 \u00b1 8",
+   "HND_S1": "113 \u00b1 4",
+   "FND_S2": "134 \u00b1 8",
+   "HND_S2": "174 \u00b1 4"
+  },
+  {
+   "protocol": "DRL-Route (gamma=0)",
+   "FND_S1": "57 \u00b1 5",
+   "HND_S1": "118 \u00b1 3",
+   "FND_S2": "134 \u00b1 6",
+   "HND_S2": "178 \u00b1 5"
+  },
+  {
+   "protocol": "DRL-Route (gamma=0.9)",
+   "FND_S1": "130 \u00b1 19",
+   "HND_S1": "241 \u00b1 15",
+   "FND_S2": "514 \u00b1 15",
+   "HND_S2": "559 \u00b1 13"
+  }
+ ],
+ "cmp5": [
+  {
+   "scen": "S1",
+   "metric": "FND",
+   "ref": "DRL-Route (gamma=0.9)",
+   "vs": "LEACH",
+   "mean": 626.1647335201662,
+   "lo": 423.4058186813139,
+   "hi": 866.81576123274,
+   "wins": 20,
+   "n": 20,
+   "p": 1.9073486328125e-06,
+   "p_holm": 1.1444091796875e-05
+  },
+  {
+   "scen": "S1",
+   "metric": "FND",
+   "ref": "DRL-Route (gamma=0.9)",
+   "vs": "PEGASIS",
+   "mean": 12895.0,
+   "lo": 12081.666666666668,
+   "hi": 13720.041666666666,
+   "wins": 20,
+   "n": 20,
+   "p": 1.9073486328125e-06,
+   "p_holm": 1.1444091796875e-05
+  },
+  {
+   "scen": "S1",
+   "metric": "FND",
+   "ref": "DRL-Route (gamma=0.9)",
+   "vs": "MTE-Tree",
+   "mean": -0.9180326504479203,
+   "lo": -8.343102681810214,
+   "hi": 7.384533692226475,
+   "wins": 9,
+   "n": 20,
+   "p": 0.2626806690239226,
+   "p_holm": 0.5253613380478452
+  },
+  {
+   "scen": "S1",
+   "metric": "FND",
+   "ref": "DRL-Route (gamma=0.9)",
+   "vs": "EA-SPT",
+   "mean": 3.8102924631453563,
+   "lo": -3.6132715792376358,
+   "hi": 11.596331882715278,
+   "wins": 12,
+   "n": 20,
+   "p": 0.7011814117431641,
+   "p_holm": 0.7011814117431641
+  },
+  {
+   "scen": "S1",
+   "metric": "FND",
+   "ref": "DRL-Route (gamma=0.9)",
+   "vs": "EA-Greedy",
+   "mean": 171.41697719137144,
+   "lo": 150.55058154203726,
+   "hi": 194.59873203651932,
+   "wins": 20,
+   "n": 20,
+   "p": 8.844915021211901e-05,
+   "p_holm": 0.00026534745063635704
+  },
+  {
+   "scen": "S1",
+   "metric": "FND",
+   "ref": "DRL-Route (gamma=0.9)",
+   "vs": "DRL-Route (gamma=0)",
+   "mean": 129.50647382988507,
+   "lo": 117.56892073783398,
+   "hi": 141.80146820115982,
+   "wins": 20,
+   "n": 20,
+   "p": 1.9073486328125e-06,
+   "p_holm": 1.1444091796875e-05
+  },
+  {
+   "scen": "S2",
+   "metric": "FND",
+   "ref": "DRL-Route (gamma=0.9)",
+   "vs": "LEACH",
+   "mean": 9.844485830042675,
+   "lo": 7.477617337404448,
+   "hi": 12.141829717026326,
+   "wins": 19,
+   "n": 20,
+   "p": 0.0001032027839634719,
+   "p_holm": 0.00026534745063635704
+  },
+  {
+   "scen": "S2",
+   "metric": "FND",
+   "ref": "DRL-Route (gamma=0.9)",
+   "vs": "PEGASIS",
+   "mean": 3525.0543345543347,
+   "lo": 3460.672817460317,
+   "hi": 3592.8469932844932,
+   "wins": 20,
+   "n": 20,
+   "p": 8.844915021211901e-05,
+   "p_holm": 0.00026534745063635704
+  },
+  {
+   "scen": "S2",
+   "metric": "FND",
+   "ref": "DRL-Route (gamma=0.9)",
+   "vs": "MTE-Tree",
+   "mean": -4.493972446280276,
+   "lo": -5.636731134512697,
+   "hi": -3.33082076618448,
+   "wins": 1,
+   "n": 20,
+   "p": 9.5367431640625e-06,
+   "p_holm": 3.814697265625e-05
+  },
+  {
+   "scen": "S2",
+   "metric": "FND",
+   "ref": "DRL-Route (gamma=0.9)",
+   "vs": "EA-SPT",
+   "mean": -4.228365208376068,
+   "lo": -5.031704577688464,
+   "hi": -3.427030733235515,
+   "wins": 0,
+   "n": 20,
+   "p": 8.844915021211901e-05,
+   "p_holm": 0.00026534745063635704
+  },
+  {
+   "scen": "S2",
+   "metric": "FND",
+   "ref": "DRL-Route (gamma=0.9)",
+   "vs": "EA-Greedy",
+   "mean": 285.8202686970767,
+   "lo": 276.5892856337013,
+   "hi": 296.07432163659377,
+   "wins": 20,
+   "n": 20,
+   "p": 1.9073486328125e-06,
+   "p_holm": 1.1444091796875e-05
+  },
+  {
+   "scen": "S2",
+   "metric": "FND",
+   "ref": "DRL-Route (gamma=0.9)",
+   "vs": "DRL-Route (gamma=0)",
+   "mean": 283.34272912184565,
+   "lo": 274.22118419374397,
+   "hi": 292.7967615210088,
+   "wins": 20,
+   "n": 20,
+   "p": 1.9073486328125e-06,
+   "p_holm": 1.1444091796875e-05
+  }
+ ],
+ "table6": {
+  "DRL-Route (TDMA)": [
+   916.0,
+   952.0,
+   991.0,
+   998.0
+  ],
+  "DRL-Route (random access)": [
+   558.0,
+   562.0,
+   619.0,
+   631.0
+  ],
+  "DRL-Route (random access, retrained)": [
+   559.0,
+   566.0,
+   616.0,
+   631.0
+  ],
+  "EA-Greedy (TDMA)": [
+   925.0,
+   947.0,
+   1007.0,
+   1012.0
+  ],
+  "EA-Greedy (random access)": [
+   562.0,
+   566.0,
+   624.0,
+   637.0
+  ],
+  "LEACH (scheduled)": [
+   402.0,
+   687.0,
+   671.0,
+   833.0
+  ],
+  "PEGASIS (scheduled)": [
+   690.0,
+   749.0,
+   976.0,
+   1020.0
+  ]
+ },
+ "mac_cmp": [
+  {
+   "scen": "S1",
+   "metric": "FND",
+   "a": "DRL-Route (random access)",
+   "b": "PEGASIS (scheduled)",
+   "mean": -13.190696765413088,
+   "wins": 2,
+   "p": 0.02734375
+  },
+  {
+   "scen": "S1",
+   "metric": "FND",
+   "a": "DRL-Route (TDMA)",
+   "b": "PEGASIS (scheduled)",
+   "mean": 42.9006150251867,
+   "wins": 10,
+   "p": 0.001953125
+  },
+  {
+   "scen": "S1",
+   "metric": "FND",
+   "a": "DRL-Route (random access, retrained)",
+   "b": "DRL-Route (random access)",
+   "mean": 0.13945725408534115,
+   "wins": 7,
+   "p": 0.541015625
+  },
+  {
+   "scen": "S1",
+   "metric": "FND",
+   "a": "DRL-Route (random access)",
+   "b": "EA-Greedy (random access)",
+   "mean": -0.7212521649974679,
+   "wins": 3,
+   "p": 0.046875
+  },
+  {
+   "scen": "S1",
+   "metric": "FND",
+   "a": "DRL-Route (TDMA)",
+   "b": "EA-Greedy (TDMA)",
+   "mean": -0.9866489651672662,
+   "wins": 3,
+   "p": 0.05078125
+  },
+  {
+   "scen": "S1",
+   "metric": "FND",
+   "a": "DRL-Route (random access)",
+   "b": "LEACH (scheduled)",
+   "mean": 39.48305020195535,
+   "wins": 10,
+   "p": 0.001953125
+  },
+  {
+   "scen": "S1",
+   "metric": "FND",
+   "a": "DRL-Route (TDMA)",
+   "b": "LEACH (scheduled)",
+   "mean": 128.81805569882602,
+   "wins": 10,
+   "p": 0.001953125
+  },
+  {
+   "scen": "S1",
+   "metric": "FND",
+   "a": "DRL-Route (random access)",
+   "b": "DRL-Route (TDMA)",
+   "mean": -39.099932457611054,
+   "wins": 0,
+   "p": 0.001953125
+  },
+  {
+   "scen": "S1",
+   "metric": "HND",
+   "a": "DRL-Route (random access)",
+   "b": "PEGASIS (scheduled)",
+   "mean": -36.60739727759396,
+   "wins": 0,
+   "p": 0.001953125
+  },
+  {
+   "scen": "S1",
+   "metric": "HND",
+   "a": "DRL-Route (TDMA)",
+   "b": "PEGASIS (scheduled)",
+   "mean": 1.561160799128709,
+   "wins": 10,
+   "p": 0.001953125
+  },
+  {
+   "scen": "S1",
+   "metric": "HND",
+   "a": "DRL-Route (random access, retrained)",
+   "b": "DRL-Route (random access)",
+   "mean": -0.37757995407988637,
+   "wins": 3,
+   "p": 0.072265625
+  },
+  {
+   "scen": "S1",
+   "metric": "HND",
+   "a": "DRL-Route (random access)",
+   "b": "EA-Greedy (random access)",
+   "mean": -0.9264297659192821,
+   "wins": 0,
+   "p": 0.001953125
+  },
+  {
+   "scen": "S1",
+   "metric": "HND",
+   "a": "DRL-Route (TDMA)",
+   "b": "EA-Greedy (TDMA)",
+   "mean": -1.5708956114548656,
+   "wins": 0,
+   "p": 0.001953125
+  },
+  {
+   "scen": "S1",
+   "metric": "HND",
+   "a": "DRL-Route (random access)",
+   "b": "LEACH (scheduled)",
+   "mean": -7.769116726462849,
+   "wins": 0,
+   "p": 0.001953125
+  },
+  {
+   "scen": "S1",
+   "metric": "HND",
+   "a": "DRL-Route (TDMA)",
+   "b": "LEACH (scheduled)",
+   "mean": 47.76045203827326,
+   "wins": 10,
+   "p": 0.001953125
+  },
+  {
+   "scen": "S1",
+   "metric": "HND",
+   "a": "DRL-Route (random access)",
+   "b": "DRL-Route (TDMA)",
+   "mean": -37.581723416464456,
+   "wins": 0,
+   "p": 0.001953125
+  },
+  {
+   "scen": "S2",
+   "metric": "FND",
+   "a": "DRL-Route (random access)",
+   "b": "PEGASIS (scheduled)",
+   "mean": -19.086720847560063,
+   "wins": 2,
+   "p": 0.01953125
+  },
+  {
+   "scen": "S2",
+   "metric": "FND",
+   "a": "DRL-Route (TDMA)",
+   "b": "PEGASIS (scheduled)",
+   "mean": 37.772067733185295,
+   "wins": 10,
+   "p": 0.001953125
+  },
+  {
+   "scen": "S2",
+   "metric": "FND",
+   "a": "DRL-Route (random access, retrained)",
+   "b": "DRL-Route (random access)",
+   "mean": 0.8247775268258328,
+   "wins": 10,
+   "p": 0.001953125
+  },
+  {
+   "scen": "S2",
+   "metric": "FND",
+   "a": "DRL-Route (random access)",
+   "b": "EA-Greedy (random access)",
+   "mean": -0.7805703901576699,
+   "wins": 1,
+   "p": 0.037109375
+  },
+  {
+   "scen": "S2",
+   "metric": "FND",
+   "a": "DRL-Route (TDMA)",
+   "b": "EA-Greedy (TDMA)",
+   "mean": 0.5307463080920449,
+   "wins": 9,
+   "p": 0.064453125
+  },
+  {
+   "scen": "S2",
+   "metric": "FND",
+   "a": "DRL-Route (random access)",
+   "b": "LEACH (scheduled)",
+   "mean": -18.086762630814743,
+   "wins": 0,
+   "p": 0.001953125
+  },
+  {
+   "scen": "S2",
+   "metric": "FND",
+   "a": "DRL-Route (TDMA)",
+   "b": "LEACH (scheduled)",
+   "mean": 38.79112398172446,
+   "wins": 10,
+   "p": 0.001953125
+  },
+  {
+   "scen": "S2",
+   "metric": "FND",
+   "a": "DRL-Route (random access)",
+   "b": "DRL-Route (TDMA)",
+   "mean": -40.99502241353714,
+   "wins": 0,
+   "p": 0.001953125
+  },
+  {
+   "scen": "S2",
+   "metric": "HND",
+   "a": "DRL-Route (random access)",
+   "b": "PEGASIS (scheduled)",
+   "mean": -38.146582959716305,
+   "wins": 0,
+   "p": 0.001953125
+  },
+  {
+   "scen": "S2",
+   "metric": "HND",
+   "a": "DRL-Route (TDMA)",
+   "b": "PEGASIS (scheduled)",
+   "mean": -2.1878638792971405,
+   "wins": 0,
+   "p": 0.001953125
+  },
+  {
+   "scen": "S2",
+   "metric": "HND",
+   "a": "DRL-Route (random access, retrained)",
+   "b": "DRL-Route (random access)",
+   "mean": 0.02576024154956502,
+   "wins": 6,
+   "p": 1.0
+  },
+  {
+   "scen": "S2",
+   "metric": "HND",
+   "a": "DRL-Route (random access)",
+   "b": "EA-Greedy (random access)",
+   "mean": -0.8851003872099049,
+   "wins": 1,
+   "p": 0.00390625
+  },
+  {
+   "scen": "S2",
+   "metric": "HND",
+   "a": "DRL-Route (TDMA)",
+   "b": "EA-Greedy (TDMA)",
+   "mean": -1.364889164980907,
+   "wins": 0,
+   "p": 0.001953125
+  },
+  {
+   "scen": "S2",
+   "metric": "HND",
+   "a": "DRL-Route (random access)",
+   "b": "LEACH (scheduled)",
+   "mean": -24.27126269721922,
+   "wins": 0,
+   "p": 0.001953125
+  },
+  {
+   "scen": "S2",
+   "metric": "HND",
+   "a": "DRL-Route (TDMA)",
+   "b": "LEACH (scheduled)",
+   "mean": 19.75509026746718,
+   "wins": 10,
+   "p": 0.001953125
+  },
+  {
+   "scen": "S2",
+   "metric": "HND",
+   "a": "DRL-Route (random access)",
+   "b": "DRL-Route (TDMA)",
+   "mean": -36.766687719834245,
+   "wins": 0,
+   "p": 0.001953125
+  }
+ ],
+ "dist_S1": {
+  "drl": 890.8199999999999,
+  "greedy": 946.4,
+  "drl_vs_sinkgw": -6.4339146816040556,
+  "greedy_vs_drl": 6.247374597155186,
+  "p": 0.001953125
+ },
+ "dist_S2": {
+  "drl": 898.8,
+  "greedy": 949.5,
+  "drl_vs_sinkgw": -9.259174323077668,
+  "greedy_vs_drl": 5.651660431403569,
+  "p": 0.001953125
+ },
+ "val_c1_g0_m?": {
+  "first": 966.4,
+  "last": 948.2,
+  "peak": 966.4
+ },
+ "val_c1_g05_m?": {
+  "first": 935.0,
+  "last": 800.3333333333334,
+  "peak": 935.0
+ },
+ "val_c1_g09_m?": {
+  "first": 901.0,
+  "last": 733.3333333333334,
+  "peak": 901.0
+ },
+ "val_c0_g0_m?": {
+  "first": 69.0,
+  "last": 47.0,
+  "peak": 69.0
+ },
+ "val_c0_g09_m?": {
+  "first": 84.33333333333333,
+  "last": 141.33333333333334,
+  "peak": 141.33333333333334
+ },
+ "seed_check": {
+  "train": 1000,
+  "test_runs": 3780,
+  "overlap": 0
+ }
+}
